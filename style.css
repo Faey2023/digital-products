@@ -11,5 +11,35 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
-
 }
+.menus{
+    display: flex;
+} 
+.item{
+    margin-right: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+.item:hover{
+    color: burlywood;
+}
+main{
+    background-image: url(/images/background.png);
+}
+.bg-img{
+    width: 300px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    color: black;
+    background-color:brown ;
+}
+button:hover{
+    color: blue;
+}
+
