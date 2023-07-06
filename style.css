@@ -31,7 +31,7 @@
 main{
     background-image: url(/images/background.png);
 }
-.bg-img{
+.bn-img{
     width: 300px;
 }
 .banner{
@@ -40,7 +40,7 @@ main{
     align-items: center;
     height: 100vh;
     color: whitesmoke;
-    background-image: url(/images/background.png), linear-gradient(45deg, rgb(20, 17, 17), black);
+    background-image: url(/images/background.png), linear-gradient(45deg, rgb(82, 74, 74), black);
 }
 .description{
     font-size: 18px;
@@ -54,4 +54,14 @@ button{
 button:hover{
     color: blue;
 }
-
+/* about us */
+.us-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+h1{
+    font-weight: bold;
+    text-align: center;
+    font-size: 55px;
+}
