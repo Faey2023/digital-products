@@ -1,10 +1,15 @@
-div{
-    color:brown;
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
-}
-#second {
-    color: blue;
-}
-#third{
-    background-color: aqua;
+.menu-container{
+    background-color: rgb(90, 71, 71);
+    padding: 20px;
+    color: white;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
 }
